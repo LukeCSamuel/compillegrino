@@ -1,0 +1,15 @@
+{
+  "name": "@lukecsamuel/compillegrino",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "An easy-to-use compiler factory",
+  "repository": "https://github.com/LukeCSamuel/compillegrino",
+  "author": "Luke Caswell Samuel <7198484+LukeCSamuel@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vitest",
+    "lint": "eslint . --fix",
+    "send": "npm run build && cp package.json dist/package.json && npm publish ./dist"
+  }
+}
